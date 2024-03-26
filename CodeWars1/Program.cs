@@ -7,40 +7,10 @@ namespace CodeWars1
 
    
     internal class Program
-    {
-        // public static int FindDup(int[] arr)
-        // {
-        //     int duplicateValue = 0;
-        //     Array.Sort(arr);
-        //    for (int i = 0;i<arr.Length-1;i++)
-        //     {
-        //         if (arr[i] == arr[i+1])
-        //         {
-        //             duplicateValue = arr[i];
-        //         }
-        //
-        //     }
-        //     return duplicateValue;
-        // }
-        public static int FindDup(int[] arr)
-        {
-            int duplicateValue = 0;
-            Array.Sort(arr);
-           for (int i = 0;i<arr.Length-1;i++)
-            {
-                if (arr[i] == arr[i+1])
-                {
-                    duplicateValue = arr[i];
-                }
-
-            }
-            return 1;
-        }
-
-
+    { 
         static void Main(string[] args)
         {
-             ConsoleWork number = new ConsoleWork();
+             
             
            
 
