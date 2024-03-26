@@ -60,5 +60,14 @@ namespace CodeWars1
             
         }
        
+        public void Ploshad()
+        {
+
+
+
+        }
+
+
+
     }
 }
