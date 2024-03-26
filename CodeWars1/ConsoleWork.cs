@@ -16,7 +16,7 @@ namespace CodeWars1
         public ConsoleWork() 
         {
             TrianglesList = new List<Triangle>();
-            Console.WriteLine("1- добавить треугольник\n 2- добавить вершины в треугольник\n 3- вывести все триугольники ");
+            Console.WriteLine("1-треугольник\n 2- добавить вершины в треугольник\n 3- вывести все триугольники ");
             string  number = Console.ReadLine();
             if (number == "1")
             {
