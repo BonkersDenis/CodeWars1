@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 namespace CodeWars1
 {
 
-   
+
     internal class Program
     {
         // public static int FindDup(int[] arr)
@@ -22,13 +22,24 @@ namespace CodeWars1
         //     }
         //     return duplicateValue;
         // }
+
+        /// <summary>
+        /// Method 
+        /// </summary>
+        /// TODO: Denis protestirui
+        public void Alo()
+        {
+            Console.WriteLine("Ti pidor");
+        }
+
         public static int FindDup(int[] arr)
         {
             int duplicateValue = 0;
             Array.Sort(arr);
-           for (int i = 0;i<arr.Length-1;i++)
+
+            for (int i = 0; i < arr.Length - 1; i++)
             {
-                if (arr[i] == arr[i+1])
+                if (arr[i] == arr[i + 1])
                 {
                     duplicateValue = arr[i];
                 }
@@ -40,9 +51,8 @@ namespace CodeWars1
 
         static void Main(string[] args)
         {
-             ConsoleWork number = new ConsoleWork();
-            
-           
+            ConsoleWork number = new ConsoleWork();
+
 
         }
     }
